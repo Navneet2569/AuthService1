@@ -52,6 +52,15 @@ dependencies {
     // Guava
     implementation libs.guava
 
+    // JJWT API - Provides the core JWT interfaces and classes
+    implementation 'io.jsonwebtoken:jjwt-api:0.12.6'
+
+    // JJWT Implementation - Provides the actual JWT signing and parsing implementation
+    runtimeOnly 'io.jsonwebtoken:jjwt-impl:0.12.6'
+
+    // JJWT Jackson - Provides JSON serialization/deserialization support using Jackson
+    runtimeOnly 'io.jsonwebtoken:jjwt-jackson:0.12.6'
+
     // Testing
     testImplementation libs.junit
 }
