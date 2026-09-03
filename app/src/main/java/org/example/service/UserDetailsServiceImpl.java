@@ -60,9 +60,11 @@ public class UserDetailsServiceImpl implements UserDetailsService {
 
     public Boolean signUpUser(UserInfoDto userInfoDto) {
 
-        if (userInfoDto == null || !validateUserEmailAndPassword(userInfoDto.getUsername(), userInfoDto.getPassword())) {
-            return false;
-        }
+        // if (userInfoDto == null
+        // || !validateUserEmailAndPassword(userInfoDto.getUsername(),
+        // userInfoDto.getPassword())) {
+        // return false;
+        // }
 
         userInfoDto.setPassword(passwordEncoder.encode(userInfoDto.getPassword()));
         if (Objects.nonNull(checkIfUserAlreadyExists(userInfoDto))) {
