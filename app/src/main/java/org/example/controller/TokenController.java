@@ -16,6 +16,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 
+// Installed and started Apache Kafka on my Ubuntu Server
 @Controller
 public class TokenController {
 
