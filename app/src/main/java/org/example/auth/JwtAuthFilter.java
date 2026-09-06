@@ -19,6 +19,7 @@ import jakarta.servlet.http.HttpServletResponse;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 
+// Learned about producer and consumer in Kafka and how to use them to send and receive messages between microservices
 @Component
 @AllArgsConstructor
 @Data
