@@ -20,6 +20,7 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 
 // Learned about producer and consumer in Kafka and how to use them to send and receive messages between microservices
+// Designed layouts of User Service which would be implemented after this in this project
 @Component
 @AllArgsConstructor
 @Data
