@@ -22,6 +22,7 @@ import lombok.Data;
 // Learned about producer and consumer in Kafka and how to use them to send and receive messages between microservices
 // Designed layouts of User Service which would be implemented in this project
 // Learned about Messaging systems and Async communication between microservices
+// Learned different Async communication patterns and their use cases
 @Component
 @AllArgsConstructor
 @Data
