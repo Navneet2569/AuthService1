@@ -23,6 +23,7 @@ import lombok.Data;
 // Designed layouts of User Service which would be implemented in this project
 // Learned about Messaging systems and Async communication between microservices
 // Learned different Async communication patterns and their use cases
+// Learned about RabbitMQ and how to use it to send and receive messages between microservices
 @Component
 @AllArgsConstructor
 @Data
