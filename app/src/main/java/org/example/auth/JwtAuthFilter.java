@@ -24,6 +24,7 @@ import lombok.Data;
 // Learned about Messaging systems and Async communication between microservices
 // Learned different Async communication patterns and their use cases
 // Learned about RabbitMQ and how to use it to send and receive messages between microservices
+// Learned about Pub-Sub model and how to use it to send and receive messages between microservices
 @Component
 @AllArgsConstructor
 @Data
