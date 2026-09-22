@@ -26,6 +26,7 @@ import lombok.Data;
 // Learned about RabbitMQ and how to use it to send and receive messages between microservices
 // Learned about Pub-Sub model and how to use it to send and receive messages between microservices
 // Learned Underlying structure of Kafka and RabbitMQ
+// Learned about inner working of Kafka
 @Component
 @AllArgsConstructor
 @Data
